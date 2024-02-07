@@ -1,5 +1,5 @@
-import "./style.css";
 import React from "react";
+import "./style.css";
 import HomeComponents from "./components/home-components";
 import InfoComponents from "./components/info-components";
 import ProfolioComponents from "./components/profolio-components";

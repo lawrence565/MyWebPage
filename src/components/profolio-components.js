@@ -5,11 +5,14 @@ const profolio = () => {
   return (
     <main>
       <div>
-        <h1>作品集</h1>
-        <Link className="btn btn-primary" to="/">
-          返回首頁
-        </Link>
+        <div>
+          <h1>作品集</h1>
+          <Link className="btn btn-primary" to="/">
+            返回首頁
+          </Link>
+        </div>
       </div>
+      <div></div>
     </main>
   );
 };
