@@ -5,6 +5,51 @@
   background-color: lightgray;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-item a {
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item a #hamburgerIcon {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item a #hamburgerIcon ::after:hover {
+    color: bisque;
+  }
+  div.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  div.content-box .content {
+    padding: 20px;
+  }
+  div.content-box .thumbnail {
+    padding: 10px;
+  }
+  div.content-box .thumbnail img {
+    width: auto;
+  }
+}
 section {
   margin-top: 5vh;
   display: flex;
@@ -31,34 +76,104 @@ div.content-box .thumbnail {
   justify-content: center;
 }
 
-nav-item {
-  text-align: center;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  color: aquamarine;
+section.projects-section {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 10vh;
 }
-
-section.projects {
-  border-color: aquamarine;
+section.projects-section div.project-cards {
   display: flex;
   flex-wrap: nowrap;
-  height: 55vh;
   overflow-x: scroll;
+  border-radius: 10px;
 }
-section.projects .project {
+section.projects-section div.project-cards .project-card {
   padding-right: 20px;
-  border: 5px, black;
+  height: auto;
 }
-section.projects .project .card {
-  padding-right: 20;
-  height: 18vw;
-  width: 10vw;
+section.projects-section div.project-cards .card {
+  border: 10px, solid, aqua;
+  border-radius: 20px;
+}
+section.projects-section div.project-cards .card .card-body,
+section.projects-section div.project-cards .card .card-title,
+section.projects-section div.project-cards .card .card-text {
+  border-radius: 10px;
+  background-color: white;
 }
 
 .footer {
   background-color: black;
-  height: 30vh;
+  overflow-x: hidden;
 }
-.footer p {
-  color: aliceblue;
+
+.footer-div {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  margin: 15%;
+}
+.footer-div .icons {
+  background-color: black;
+  width: -moz-max-content;
+  width: max-content;
+  flex: 2;
+}
+.footer-div .icons ul {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer-div .icons ul li {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.footer-div .icons ul li .contact-info {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  align-items: center;
+}
+.footer-div .icons ul li .contact-info img {
+  width: 25px;
+  height: 25px;
+}
+.footer-div .icons ul li .contact-info p {
+  padding-left: 5vh;
+  margin-bottom: 0;
+  background-color: black;
+  color: white;
+}
+.footer-div .sending {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  background-color: black;
+  color: white;
+}
+.footer-div .sending h1 {
+  color: white;
+  background-color: black;
+  justify-content: center;
+}
+.footer-div .sending div {
+  background-color: black;
+  padding-bottom: 2px;
+}
+.footer-div .sending div label {
+  background-color: black;
+}
+.footer-div .sending div input {
+  border-bottom: 1px;
+  border-color: white;
+  width: 100%;
+  border-radius: 5px;
+  min-width: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CardComponents from "./project-components";
 
 const HomeComponent = () => {
   return (
@@ -8,6 +9,7 @@ const HomeComponent = () => {
         <div className="container-fluid">
           <section className="main-content">
             <div className="content-box">
+              {/* Main-content, Introduction */}
               <div className="content">
                 <h1>Lawrence Wu 吳秉耀</h1>
                 <p>這是我的自我介紹網站測試</p>
@@ -16,6 +18,8 @@ const HomeComponent = () => {
                   前往關於頁面
                 </Link>
               </div>
+
+              {/* Thumbnail, Photo */}
               <div
                 className="thumbnail"
                 style={{ backgroundColor: "black", flexGrow: "1" }}
@@ -28,93 +32,48 @@ const HomeComponent = () => {
             </div>
           </section>
 
-          <section className="projects">
-            <div className="project" id="Master Cup 2022">
-              <div className="card" style={{ width: "18rem" }}>
-                <img
-                  src="../Images/IMG-5512.jpg"
-                  className="card-img-top"
-                  alt="Master Cup 2022"
-                ></img>
-                <div className="card-body">
-                  <h5 className="card-title">Master Cup 2022</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    go to video
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="project" id="Master Cup 2023">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src="..." className="card-img-top" alt="..."></img>
-                <div className="card-body">
-                  <h5 className="card-title">Master Cup 2023</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="project" id="GQ Style Fest">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src="..." className="card-img-top" alt="..."></img>
-                <div className="card-body">
-                  <h5 className="card-title">GQ Style Fest</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="project" id="Spaceport 2022">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src="..." className="card-img-top" alt="..."></img>
-                <div className="card-body">
-                  <h5 className="card-title">Spaceport 2022</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
+          {/* project cards */}
+          <section className="projects-section">
+            <div className="project-cards">
+              <CardComponents
+                className="card"
+                name="Spaceport 2022"
+                description="This is an event held during 2022/10/07 ~ 2022/10/10"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="Master Cup 2022"
+                description="This is an event held during 2022/10/15 ~ 2022/12/25"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="GQ Style Festival"
+                description="This is an event held during 2023/08/05 ~ 2023/08/06"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="Spaceport 2022"
+                description="This is an event held during 2023/09/02 ~ 2022/11/18"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="Cooler Master X SF 6"
+                description="This is an event held during 2023/09/15 ~ 2023/11/16"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="Macau GP"
+                description="This is an event held during 2023/11/14 ~ 2022/11/20"
+              ></CardComponents>
+              <CardComponents
+                className="card"
+                name="Spaceport 2022"
+                description="This is an event held during 2023/09/02 ~ 2022/11/18"
+              ></CardComponents>
             </div>
           </section>
         </div>
       </div>
-      <footer className="footer">
-        <div className="footer-div">
-          <div className="contact-info"></div>
-          <div className="icons">
-            <ul className="social-media">
-              <li>
-                <img id="facebook" src="" href=""></img>
-                <img id="instagram" src="" href=""></img>
-                <img id="Gmail" src="" href=""></img>
-                <img id="twitter" src="" href=""></img>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p>Here is the footer</p>
-      </footer>
     </main>
   );
 };
