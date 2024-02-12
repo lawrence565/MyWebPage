@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CardComponents from "./project-components";
+import CardComponents from "./card-components";
 
 const HomeComponent = () => {
   return (
@@ -10,11 +10,16 @@ const HomeComponent = () => {
           <section className="main-content">
             <div className="content-box">
               {/* Main-content, Introduction */}
-              <div className="content">
+              <div className="main-content">
                 <h1>Lawrence Wu 吳秉耀</h1>
-                <p>這是我的自我介紹網站測試</p>
-                <br />
-                <Link className="nav-button" to="/about">
+                <p>
+                  這是我的自我介紹網站測試 這是我的自我介紹網站測試
+                  這是我的自我介紹網站測試 這是我的
+                  <span style={{ color: "blue" }}>自我介紹</span>
+                  網站測試 這是我的自我介紹網站測試 這是我的自我介紹網站測試
+                  <br />
+                </p>
+                <Link className="btn btn-primary" to="/about">
                   前往關於頁面
                 </Link>
               </div>

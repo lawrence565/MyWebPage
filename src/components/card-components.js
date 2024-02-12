@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const CardComponents = (props) => {
+const mxpComponents = (props) => {
   return (
     <div className="project-card" id={props.name}>
       <div className="card" style={{ width: "18rem" }}>
@@ -23,4 +23,4 @@ const CardComponents = (props) => {
   );
 };
 
-export default CardComponents;
+export default mxpComponents;

@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/navbar.css";
 import { Link } from "react-router-dom";
 
 const NavComponent = () => {
@@ -11,22 +12,23 @@ const NavComponent = () => {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" to="/">
+                  <Link className="nav-link active" to="./">
                     首頁
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/about">
+                  <Link className="nav-link" to="./about">
                     關於
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/profolio">
+                  <Link className="nav-link" to="./profolio">
                     作品集
                   </Link>
                 </li>
               </ul>
             </div>
+
             {/* Hamberger Icon */}
             <div className="hambergurIcon navbar-nav me-auto mb-2 mb-lg-0">
               <ul>
@@ -48,23 +50,20 @@ const NavComponent = () => {
                     style={{ backgroundColor: "lightgray" }}
                   >
                     <li>
-                      <Link className="dropdown-item" to="/">
+                      <Link className="dropdown-item" to="./">
                         首頁
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/about">
+                      <Link className="dropdown-item" to="./about">
                         關於
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="/profolio">
+                      <Link className="dropdown-item" to="./profolio">
                         作品集
                       </Link>
                     </li>
-                    {/* <li>
-                      <hr class="dropdown-divider" />
-                    </li> */}
                   </ul>
                 </li>
               </ul>

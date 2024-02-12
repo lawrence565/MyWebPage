@@ -1,0 +1,85 @@
+// reset
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+div.content-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .content {
+    padding: 20px;
+  }
+  .thumbnail {
+    padding: 10px;
+    img {
+      width: auto;
+    }
+  }
+}
+
+section {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 70vw;
+  .main-content {
+    display: flex;
+    flex: 3;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .thumbnail {
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+section.projects-section {
+  height: fit-content;
+  margin-bottom: 10vh;
+  div.project-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    border-radius: 10px;
+    .project-card {
+      padding-right: 20px;
+      height: auto;
+    }
+    .card {
+      border: 10px, solid, aqua;
+      border-radius: 20px;
+      .card-body,
+      .card-title,
+      .card-text {
+        border-radius: 10px;
+        background-color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.footer {
+  background-color: black;
+  overflow-x: hidden;
+}
+.footer-div {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  margin: 15%;
+  .icons {
+    background-color: black;
+    width: max-content;
+    flex: 2;
+    ul {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      width: fit-content;
+      li {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        .contact-info {
+          display: flex;
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          background-color: black;
+          align-items: center;
+          img {
+            width: 25px;
+            height: 25px;
+          }
+          p {
+            padding-left: 5vh;
+            margin-bottom: 0;
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .sending {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-color: black;
+    color: white;
+    h1 {
+      color: white;
+      background-color: black;
+      justify-content: center;
+    }
+    div {
+      background-color: black;
+      padding-bottom: 2px;
+      label {
+        background-color: black;
+      }
+      input {
+        border-bottom: 1px;
+        border-color: white;
+        width: 100%;
+        border-radius: 5px;
+        min-width: 100px;
+      }
+    }
+  }
+}
