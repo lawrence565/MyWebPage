@@ -7,7 +7,7 @@ const mxpComponents = (props) => {
       <div className="card" style={{ width: "18rem" }}>
         <img
           style={{ width: "18rem" }}
-          src="images/IMG_1344.JPG"
+          src="images/spaceport.JPG"
           className="card-img-top"
           alt={props.name}
         ></img>

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const profolio = () => {
+  const rootPath = "/MyWebPage";
+
   return (
     <main>
       <div>
@@ -10,7 +12,7 @@ const profolio = () => {
             <div className="container-fluid">
               <section className="main-content">
                 <h1>作品集</h1>
-                <Link className="btn btn-primary" to="/">
+                <Link className="btn btn-primary" to={`${rootPath}`}>
                   返回首頁
                 </Link>
               </section>

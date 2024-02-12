@@ -1,7 +1,7 @@
 import React from "react";
 import "./style/style.css";
-import HomeComponents from "./components/home-components";
-import InfoComponents from "./components/info-components";
+import HomeComponents from "./components/Home-components";
+import InfoComponents from "./components/Info-page-components.js";
 import ProfolioComponents from "./components/profolio-components";
 import Layout from "./components/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/MyWebPage" element={<Layout />}>
           <Route index element={<HomeComponents />} />
           <Route path="about" element={<InfoComponents />} />
           <Route path="profolio" element={<ProfolioComponents />} />
