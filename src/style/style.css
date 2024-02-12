@@ -30,13 +30,13 @@ section {
   margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10vh;
 }
 
 .main-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 }
 
 div.content-box {
@@ -74,8 +74,7 @@ section.projects-section div.project-cards .project-card {
   height: auto;
 }
 section.projects-section div.project-cards .card {
-  border: 10px, solid, aqua;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 section.projects-section div.project-cards .card .card-body,
 section.projects-section div.project-cards .card .card-title,

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const InfoComponents = () => {
-  const rootPath = "/MyWebPage";
+  const rootPath = "";
 
   return (
     <div>

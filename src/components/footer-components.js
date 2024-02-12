@@ -1,35 +1,49 @@
 import React from "react";
 import "../style/footer.css";
-import { Link } from "react-router-dom";
 
 const footer = () => {
   return (
     <footer className="footer">
-      <div className="left"></div>
       <div className="footer-div">
         <div className="icons">
           <ul className="social-media">
             <li className="logo">
               <div className="contact-info">
-                <img id="facebook" src="./images/logos/fb_logo.png" href="" />
+                <img
+                  id="facebook"
+                  src="/images/logos/fb_logo.png"
+                  alt="Facebook-Logo"
+                />
                 <p>Lawrence_Wu</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
-                <img id="Gmail" src="./images/logos/Gmail-logo.png" href="" />
+                <img
+                  id="Gmail"
+                  src="/images/logos/Gmail-logo.png"
+                  alt="Gmail-Logo"
+                />
                 <p>Lawrence891106@gmail.com</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
-                <img id="instagram" src="./images/logos/ig_logo.png" href="" />
+                <img
+                  id="instagram"
+                  src="/images/logos/ig_logo.png"
+                  alt="Instagram-Logo"
+                />
                 <p>PY_Wuuuuuuuu</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
-                <img id="twitter" src="./images/logos/x_logo.png" href="" />
+                <img
+                  id="twitter"
+                  src="/images/logos/x_logo.png"
+                  alt="Twitter-Logo"
+                />
                 <p>HaHa565</p>
               </div>
             </li>
@@ -54,7 +68,6 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className="right"></div>
     </footer>
   );
 };
