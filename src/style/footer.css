@@ -26,11 +26,7 @@
 }
 .footer-div .icons ul li {
   display: flex;
-<<<<<<< HEAD
   margin: 0.3em 0 0.3em 0;
-=======
-  margin: 0.5em 0 0.5em 0;
->>>>>>> 5572d13a (Changing footer style)
   align-items: center;
   background-color: black;
 }
@@ -78,18 +74,15 @@
   border-bottom: 1px solid white;
   background-color: black;
   border-radius: 5px;
-<<<<<<< HEAD
   margin-bottom: 0.3rem;
-=======
->>>>>>> 5572d13a (Changing footer style)
   width: -moz-fit-content;
   width: fit-content;
   min-width: 100px;
   width: 100%;
-<<<<<<< HEAD
-=======
+  width: fit-content;
+  min-width: 100px;
+  width: 100%;
   padding-bottom: 0.5rem;
->>>>>>> 5572d13a (Changing footer style)
 }
 .footer-div .sending div input:focus {
   background-color: lightgray;

@@ -25,10 +25,7 @@ const HomeComponent = () => {
               </div>
 
               {/* Thumbnail, Photo */}
-              <div
-                className="thumbnail"
-                style={{ backgroundColor: "black", flexGrow: "1" }}
-              >
+              <div className="thumbnail-container">
                 <img src="/images/icon.jpg" alt="Lawrence's thumbnail"></img>
               </div>
             </div>

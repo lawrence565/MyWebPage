@@ -11,27 +11,36 @@ li {
   list-style: none;
 }
 
-<<<<<<< HEAD
 .container {
   min-height: "70vh";
-=======
-.container{
-  min-height: "70vh"
->>>>>>> master
 }
 
 div.content-box {
   display: flex;
+  height: 40vh;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   .content {
     padding: 20px;
   }
-  .thumbnail {
-    padding: 10px;
+  .thumbnail-container {
+    display: flex;
+    max-width: 30vw;
+    max-height: 25vh;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black;
+    justify-content: center;
+    border: 8px solid black;
+    border-radius: 10px;
+
     img {
-      width: auto;
+      border-radius: 10px;
+      position: relative;
+      top: -30px;
+      height: 105%;
+      width: 105%;
     }
   }
 }
@@ -44,7 +53,6 @@ section {
   align-items: center;
   margin: 2rem;
 }
-
 
 div.content-box {
   display: flex;

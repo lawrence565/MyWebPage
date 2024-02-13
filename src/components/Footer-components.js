@@ -57,13 +57,15 @@ const footer = () => {
             </div>
             <div style={{ width: "20px" }}></div>
             <div className="phone">
-              <input type="phone" name="phone" placeholder="電話："></input>
+              <input type="tel" name="phone" placeholder="電話："></input>
             </div>
           </div>
           <div className="email">
             <input type="email" name="email" placeholder="郵件："></input>
           </div>
-          <div className="message"></div>
+          <div className="message">
+            <input type="text" name="email" placeholder="請留下訊息："></input>
+          </div>
         </div>
       </div>
     </footer>
