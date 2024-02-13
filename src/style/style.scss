@@ -11,8 +11,13 @@ li {
   list-style: none;
 }
 
+<<<<<<< HEAD
 .container {
   min-height: "70vh";
+=======
+.container{
+  min-height: "70vh"
+>>>>>>> master
 }
 
 div.content-box {
@@ -39,6 +44,7 @@ section {
   align-items: center;
   margin: 2rem;
 }
+
 
 div.content-box {
   display: flex;

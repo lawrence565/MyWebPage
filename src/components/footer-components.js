@@ -4,63 +4,86 @@ import "../style/footer.css";
 const footer = () => {
   return (
     <footer className="footer">
-      <div className="left"></div>
       <div className="footer-div">
         <div className="icons">
           <ul className="social-media">
             <li className="logo">
               <div className="contact-info">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
                 <img
                   id="facebook"
                   src="/images/logos/fb_logo.png"
                   alt="Facebook-Logo"
                 />
+<<<<<<< HEAD
 =======
                 <img id="facebook" src="./images/logos/fb_logo.png" href="" />
 >>>>>>> 5572d13a (Changing footer style)
+=======
+>>>>>>> master
                 <p>Lawrence_Wu</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
                 <img
                   id="Gmail"
                   src="/images/logos/Gmail-logo.png"
                   alt="Gmail-Logo"
                 />
+<<<<<<< HEAD
 =======
                 <img id="Gmail" src="./images/logos/Gmail-logo.png" href="" />
 >>>>>>> 5572d13a (Changing footer style)
+=======
+>>>>>>> master
                 <p>Lawrence891106@gmail.com</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
                 <img
                   id="instagram"
                   src="/images/logos/ig_logo.png"
                   alt="Instagram-Logo"
                 />
+<<<<<<< HEAD
 =======
                 <img id="instagram" src="./images/logos/ig_logo.png" href="" />
 >>>>>>> 5572d13a (Changing footer style)
+=======
+>>>>>>> master
                 <p>PY_Wuuuuuuuu</p>
               </div>
             </li>
             <li className="logo">
               <div className="contact-info">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
                 <img
                   id="twitter"
                   src="/images/logos/x_logo.png"
                   alt="Twitter-Logo"
                 />
+<<<<<<< HEAD
 =======
                 <img id="twitter" src="./images/logos/x_logo.png" href="" />
 >>>>>>> 5572d13a (Changing footer style)
+=======
+>>>>>>> master
                 <p>HaHa565</p>
               </div>
             </li>
@@ -100,7 +123,6 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className="right"></div>
     </footer>
   );
 };
