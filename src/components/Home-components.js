@@ -11,7 +11,11 @@ const HomeComponent = () => {
             <div className="content-box">
               {/* Main-content, Introduction */}
               <div className="main-content">
-                <h1>Lawrence Wu 吳秉耀</h1>
+                <div className="title">
+                  <h1>Lawrence Wu</h1>
+                  <h1>吳秉耀</h1>
+                </div>
+
                 <p>
                   這是我的自我介紹網站測試 這是我的自我介紹網站測試
                   這是我的自我介紹網站測試 這是我的
@@ -19,14 +23,24 @@ const HomeComponent = () => {
                   網站測試 這是我的自我介紹網站測試 這是我的自我介紹網站測試
                   <br />
                 </p>
-                <Link className="btn btn-primary" to="/about">
-                  前往關於頁面
-                </Link>
+                <div
+                  style={{
+                    width: "60%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Link className="btn btn-primary" to="/about">
+                    前往關於頁面
+                  </Link>
+                </div>
               </div>
 
               {/* Thumbnail, Photo */}
               <div className="thumbnail-container">
-                <img src="/images/icon.jpg" alt="Lawrence's thumbnail"></img>
+                <div className="thumbnail-bg">
+                  <img src="/images/icon.jpg" alt="Lawrence's thumbnail"></img>
+                </div>
               </div>
             </div>
           </section>

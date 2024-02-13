@@ -5,51 +5,48 @@ const footer = () => {
   return (
     <footer className="footer">
       <div className="footer-div">
-        <div className="icons">
-          <ul className="social-media">
-            <li className="logo">
-              <div className="contact-info">
-                <img
-                  id="facebook"
-                  src="/images/logos/fb_logo.png"
-                  alt="Facebook-Logo"
-                />
-                <p>Lawrence_Wu</p>
-              </div>
-            </li>
-            <li className="logo">
-              <div className="contact-info">
-                <img
-                  id="Gmail"
-                  src="/images/logos/Gmail-logo.png"
-                  alt="Gmail-Logo"
-                />
-                <p>Lawrence891106@gmail.com</p>
-              </div>
-            </li>
-            <li className="logo">
-              <div className="contact-info">
-                <img
-                  id="instagram"
-                  src="/images/logos/ig_logo.png"
-                  alt="Instagram-Logo"
-                />
-                <p>PY_Wuuuuuuuu</p>
-              </div>
-            </li>
-            <li className="logo">
-              <div className="contact-info">
-                <img
-                  id="twitter"
-                  src="/images/logos/x_logo.png"
-                  alt="Twitter-Logo"
-                />
-                <p>HaHa565</p>
-              </div>
-            </li>
-          </ul>
+        <div className="left-footer">
+          <div className="icons">
+            <div className="contact-logo">
+              <img
+                id="facebook"
+                src="/images/logos/fb_logo.png"
+                alt="Facebook-Logo"
+                href="https://www.facebook.com/lawrence.wu.3910/"
+              />
+            </div>
+            <div className="contact-logo">
+              <img
+                id="Gmail"
+                src="/images/logos/Gmail-logo.png"
+                alt="Gmail-Logo"
+                href="mailto:lawrence891106@gmail.com"
+              />
+            </div>
+            <div className="contact-logo">
+              <img
+                id="GitHub"
+                src="/images/logos/GitHub_logo.png"
+                alt="GitHub-Logo"
+                href="https://github.com/lawrence565"
+              />
+            </div>
+            <div className="contact-logo">
+              <img
+                id="twitter"
+                src="/images/logos/linkedin-logo.svg"
+                alt="Twitter-Logo"
+                href="https://www.linkedin.com/in/秉耀-吳-a73822225/"
+              />
+            </div>
+          </div>
+          <div className="contact-me">
+            <h3>或 者 聯 絡 我 →</h3>
+          </div>
         </div>
-        <div className="sending">
+        <div className="middle-footer" style={{ width: "5vw" }}></div>
+
+        <div className="right-footer sending">
           <h3>提出問題</h3>
           <div className="basic-info">
             <div className="name">

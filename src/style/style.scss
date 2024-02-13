@@ -15,32 +15,63 @@ li {
   min-height: "70vh";
 }
 
-div.content-box {
-  display: flex;
-  height: 40vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  .content {
-    padding: 20px;
-  }
-  .thumbnail-container {
+@media screen and (min-width: 992px) {
+  div.content-box {
     display: flex;
-    max-width: 30vw;
-    max-height: 25vh;
-    object-fit: cover;
-    overflow: hidden;
-    background-color: black;
+    min-height: 40vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: nowrap;
+    h1 {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  div.content-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+      margin-right: 10px;
+    }
+  }
+}
+
+.content {
+  padding: 20px;
+}
+.main-content {
+  flex-grow: 3;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  .thumbnail-bg {
+    display: flex;
     justify-content: center;
     border: 8px solid black;
     border-radius: 10px;
+    max-width: 20vw;
+    overflow: hidden;
+    background-color: black;
 
     img {
+      aspect-ratio: 3/4;
       border-radius: 10px;
-      position: relative;
-      top: -30px;
-      height: 105%;
-      width: 105%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }

@@ -14,34 +14,65 @@ li {
   min-height: "70vh";
 }
 
-div.content-box {
-  display: flex;
-  height: 40vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width: 992px) {
+  div.content-box {
+    display: flex;
+    min-height: 40vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .title h1 {
+    margin-right: 10px;
+  }
 }
-div.content-box .content {
+@media screen and (max-width: 992px) {
+  div.content-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title h1 {
+    margin-right: 10px;
+  }
+}
+.content {
   padding: 20px;
 }
-div.content-box .thumbnail-container {
+
+.main-content {
+  flex-grow: 3;
+}
+
+.thumbnail-container {
   display: flex;
-  max-width: 30vw;
-  max-height: 25vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-  background-color: black;
+  justify-content: center;
+  flex-grow: 1;
+}
+.thumbnail-container .thumbnail-bg {
+  display: flex;
   justify-content: center;
   border: 8px solid black;
   border-radius: 10px;
+  max-width: 20vw;
+  overflow: hidden;
+  background-color: black;
 }
-div.content-box .thumbnail-container img {
+.thumbnail-container .thumbnail-bg img {
+  aspect-ratio: 3/4;
   border-radius: 10px;
-  position: relative;
-  top: -30px;
-  height: 105%;
-  width: 105%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 section {
