@@ -3,16 +3,7 @@ import "../style/navbar.css";
 import { Link } from "react-router-dom";
 
 const NavComponent = () => {
-<<<<<<< HEAD
-  const rootPath = "/MyWebPage";
-
   return (
-<<<<<<< HEAD
-=======
-  const rootPath = "";
-
-  return (
->>>>>>> master
     <nav>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid" style={{ height: "5vh" }}>
@@ -20,59 +11,21 @@ const NavComponent = () => {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-<<<<<<< HEAD
                 <Link className="nav-link active" to="/">
-=======
-                <Link className="nav-link active" to={rootPath}>
->>>>>>> master
                   首頁
                 </Link>
               </li>
               <li className="nav-item">
-<<<<<<< HEAD
                 <Link className="nav-link" to="/about">
-=======
-                <Link className="nav-link" to={`${rootPath}/about`}>
->>>>>>> master
                   關於
                 </Link>
               </li>
               <li className="nav-item">
-<<<<<<< HEAD
                 <Link className="nav-link" to="/profolio">
-=======
-                <Link className="nav-link" to={`${rootPath}/profolio`}>
->>>>>>> master
                   作品集
                 </Link>
               </li>
             </ul>
-<<<<<<< HEAD
-=======
-    <div>
-      <nav>
-        <nav className="navbar navbar-expand-lg ">
-          <div className="container-fluid" style={{ height: "5vh" }}>
-            {/* Normal NavBar */}
-            <div className="collapse navbar-collapse">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link className="nav-link active" to={rootPath}>
-                    首頁
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to={`${rootPath}/about`}>
-                    關於
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to={`${rootPath}/profolio`}>
-                    作品集
-                  </Link>
-                </li>
-              </ul>
-            </div>
 
             {/* Hamberger Icon */}
             <div className="hambergurIcon navbar-nav me-auto mb-2 mb-lg-0">
@@ -113,9 +66,6 @@ const NavComponent = () => {
                 </li>
               </ul>
             </div>
->>>>>>> 5572d13a (Changing footer style)
-=======
->>>>>>> master
           </div>
 
           {/* Hamberger Icon */}
@@ -139,29 +89,17 @@ const NavComponent = () => {
                   style={{ backgroundColor: "lightgray" }}
                 >
                   <li>
-<<<<<<< HEAD
                     <Link className="dropdown-item" to="/">
-=======
-                    <Link className="dropdown-item" to={rootPath}>
->>>>>>> master
                       首頁
                     </Link>
                   </li>
                   <li>
-<<<<<<< HEAD
                     <Link className="dropdown-item" to="/about">
-=======
-                    <Link className="dropdown-item" to={`${rootPath}/about`}>
->>>>>>> master
                       關於
                     </Link>
                   </li>
                   <li>
-<<<<<<< HEAD
                     <Link className="dropdown-item" to="/profolio">
-=======
-                    <Link className="dropdown-item" to={`${rootPath}/profolio`}>
->>>>>>> master
                       作品集
                     </Link>
                   </li>
