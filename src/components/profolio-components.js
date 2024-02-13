@@ -3,7 +3,7 @@ import "../style/profolio.css";
 import { Link } from "react-router-dom";
 import ProjectCard from "./Project-Card-components";
 
-const ProfolioComponents = () => {
+const ProfolioComponent = () => {
   return (
     <main>
       <div>
@@ -36,4 +36,4 @@ const ProfolioComponents = () => {
   );
 };
 
-export default ProfolioComponents;
+export default ProfolioComponent;
