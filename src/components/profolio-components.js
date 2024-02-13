@@ -3,7 +3,13 @@ import "../style/profolio.css";
 import { Link } from "react-router-dom";
 import ProjectCard from "./Project-Card-components";
 
+<<<<<<< HEAD
 const ProfolioComponent = () => {
+=======
+const profolio = () => {
+  const rootPath = "/MyWebPage";
+
+>>>>>>> 5572d13a (Changing footer style)
   return (
     <main>
       <div>
@@ -13,6 +19,7 @@ const ProfolioComponent = () => {
               <div className="side"></div>
               <div className="project-container" style={{ minHeight: "70vh" }}>
                 <h1>作品集</h1>
+<<<<<<< HEAD
                 <ProjectCard name="Go Game"></ProjectCard>
                 <ProjectCard name="Japan Travel Website"></ProjectCard>
                 <ProjectCard name="Personal Website"></ProjectCard>
@@ -27,6 +34,12 @@ const ProfolioComponent = () => {
               </div>
 
               <div className="side"></div>
+=======
+                <Link className="btn btn-primary" to={`${rootPath}`}>
+                  返回首頁
+                </Link>
+              </section>
+>>>>>>> 5572d13a (Changing footer style)
             </div>
           </div>
         </div>

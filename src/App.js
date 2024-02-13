@@ -1,5 +1,12 @@
 import React from "react";
+<<<<<<< HEAD
 import { Switch } from "react-router-dom";
+=======
+import "./style/style.css";
+import HomeComponents from "./components/Home-components";
+import InfoComponents from "./components/Info-page-components.js";
+import ProfolioComponents from "./components/profolio-components";
+>>>>>>> 5572d13a (Changing footer style)
 import Layout from "./components/Layout";
 import "./style/style.css";
 import HomeComponents from "./components/Home-components";
@@ -11,7 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/MyWebPage" element={<Layout />}>
           <Route index element={<HomeComponents />} />
           <Route path="about" element={<InfoComponents />} />
           <Route path="profolio" element={<ProfolioComponents />} />

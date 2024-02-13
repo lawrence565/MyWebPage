@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import CardComponents from "./Event-Card-components";
 
 const HomeComponent = () => {
+  const rootPath = "/MyWebPage";
+
   return (
     <main>
       <div className="container">
@@ -19,7 +21,7 @@ const HomeComponent = () => {
                   網站測試 這是我的自我介紹網站測試 這是我的自我介紹網站測試
                   <br />
                 </p>
-                <Link className="btn btn-primary" to="/about">
+                <Link className="btn btn-primary" to={`${rootPath}/about`}>
                   前往關於頁面
                 </Link>
               </div>

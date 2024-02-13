@@ -6,7 +6,11 @@ const CardComponents = (props) => {
       <div className="card" style={{ width: "18rem" }}>
         <img
           style={{ width: "18rem" }}
+<<<<<<< HEAD
           src="/images/spaceport.jpg"
+=======
+          src="images/spaceport.JPG"
+>>>>>>> 5572d13a (Changing footer style)
           className="card-img-top"
           alt={props.name}
         ></img>

@@ -1,6 +1,8 @@
 .footer {
   background-color: black;
   overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1 3 1;
 }
 .footer-div {
   display: flex;
@@ -20,7 +22,11 @@
       margin: 0;
       li {
         display: flex;
+<<<<<<< HEAD
         margin: 0.3em 0 0.3em 0;
+=======
+        margin: 0.5em 0 0.5em 0;
+>>>>>>> 5572d13a (Changing footer style)
         align-items: center;
         background-color: black;
         .contact-info {
@@ -68,10 +74,17 @@
         border-bottom: 1px solid white;
         background-color: black;
         border-radius: 5px;
+<<<<<<< HEAD
         margin-bottom: 0.3rem;
         width: fit-content;
         min-width: 100px;
         width: 100%;
+=======
+        width: fit-content;
+        min-width: 100px;
+        width: 100%;
+        padding-bottom: 0.5rem;
+>>>>>>> 5572d13a (Changing footer style)
         &:focus {
           background-color: lightgray;
         }
