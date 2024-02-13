@@ -2,7 +2,7 @@ import React from "react";
 
 const CardComponents = (props) => {
   return (
-    <div className="project-card" id={props.name}>
+    <div className="event-card" id={props.name}>
       <div className="card" style={{ width: "18rem" }}>
         <img
           style={{ width: "18rem" }}

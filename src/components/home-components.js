@@ -38,8 +38,8 @@ const HomeComponent = () => {
           </section>
 
           {/* project cards */}
-          <section className="projects-section">
-            <div className="project-cards">
+          <section className="events-section">
+            <div className="event-cards">
               <CardComponents
                 className="card"
                 name="Spaceport 2022"

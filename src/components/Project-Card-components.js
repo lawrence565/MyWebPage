@@ -12,7 +12,7 @@ const ProfolioComponents = (props) => {
       </div>
       <div className="project-info">
         <h3 className="project-name">{props.name}</h3>
-        <p className="project-desc">這是關於 Project 的許多細節與介紹</p>
+        <p className="project-desc">{props.description}</p>
       </div>
     </div>
   );

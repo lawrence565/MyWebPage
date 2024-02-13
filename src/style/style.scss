@@ -11,8 +11,8 @@ li {
   list-style: none;
 }
 
-.container{
-  min-height: "70vh"
+.container {
+  min-height: "70vh";
 }
 
 div.content-box {
@@ -40,7 +40,6 @@ section {
   margin: 2rem;
 }
 
-
 div.content-box {
   display: flex;
   flex-wrap: nowrap;
@@ -60,15 +59,15 @@ div.content-box {
   }
 }
 
-section.projects-section {
+section.events-section {
   height: fit-content;
   margin-bottom: 10vh;
-  div.project-cards {
+  div.event-cards {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
     border-radius: 10px;
-    .project-card {
+    .event-card {
       padding-right: 20px;
       height: auto;
     }

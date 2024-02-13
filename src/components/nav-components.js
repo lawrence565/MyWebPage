@@ -3,8 +3,6 @@ import "../style/navbar.css";
 import { Link } from "react-router-dom";
 
 const NavComponent = () => {
-  const rootPath = "";
-
   return (
     <nav>
       <nav className="navbar navbar-expand-lg ">
@@ -13,17 +11,17 @@ const NavComponent = () => {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" to={rootPath}>
+                <Link className="nav-link active" to="/">
                   首頁
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={`${rootPath}/about`}>
+                <Link className="nav-link" to="/about">
                   關於
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={`${rootPath}/profolio`}>
+                <Link className="nav-link" to="/profolio">
                   作品集
                 </Link>
               </li>
@@ -51,17 +49,17 @@ const NavComponent = () => {
                   style={{ backgroundColor: "lightgray" }}
                 >
                   <li>
-                    <Link className="dropdown-item" to={rootPath}>
+                    <Link className="dropdown-item" to="/">
                       首頁
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to={`${rootPath}/about`}>
+                    <Link className="dropdown-item" to="/about">
                       關於
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to={`${rootPath}/profolio`}>
+                    <Link className="dropdown-item" to="/profolio">
                       作品集
                     </Link>
                   </li>

@@ -10,6 +10,10 @@ li {
   list-style: none;
 }
 
+.container {
+  min-height: "70vh";
+}
+
 div.content-box {
   display: flex;
   flex-wrap: wrap;
@@ -30,10 +34,6 @@ section {
   margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-}
-
-.main-content {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem;
@@ -58,27 +58,27 @@ div.content-box .thumbnail {
   justify-content: center;
 }
 
-section.projects-section {
+section.events-section {
   height: -moz-fit-content;
   height: fit-content;
   margin-bottom: 10vh;
 }
-section.projects-section div.project-cards {
+section.events-section div.event-cards {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
   border-radius: 10px;
 }
-section.projects-section div.project-cards .project-card {
+section.events-section div.event-cards .event-card {
   padding-right: 20px;
   height: auto;
 }
-section.projects-section div.project-cards .card {
+section.events-section div.event-cards .card {
   border-radius: 30px;
 }
-section.projects-section div.project-cards .card .card-body,
-section.projects-section div.project-cards .card .card-title,
-section.projects-section div.project-cards .card .card-text {
+section.events-section div.event-cards .card .card-body,
+section.events-section div.event-cards .card .card-title,
+section.events-section div.event-cards .card .card-text {
   border-radius: 10px;
   background-color: white;
 }/*# sourceMappingURL=style.css.map */

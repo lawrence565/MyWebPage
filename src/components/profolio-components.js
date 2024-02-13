@@ -3,9 +3,7 @@ import "../style/profolio.css";
 import { Link } from "react-router-dom";
 import ProjectCard from "./Project-Card-components";
 
-const profolio = () => {
-  const rootPath = "/MyWebPage";
-
+const ProfolioComponents = () => {
   return (
     <main>
       <div>
@@ -19,10 +17,15 @@ const profolio = () => {
                 <ProjectCard name="Japan Travel Website"></ProjectCard>
                 <ProjectCard name="Personal Website"></ProjectCard>
                 <ProjectCard name="GPA calculate Website"></ProjectCard>
-                <Link className="btn btn-primary" to={`${rootPath}`}>
-                  返回首頁
-                </Link>
+                <ProjectCard name="Google Login Website"></ProjectCard>
+                <ProjectCard name="Online Course System"></ProjectCard>
+                <div className="button-feild" style={{ margin: "2rem" }}>
+                  <Link className="btn btn-primary" to="/">
+                    返回首頁
+                  </Link>
+                </div>
               </div>
+
               <div className="side"></div>
             </div>
           </div>
@@ -33,4 +36,4 @@ const profolio = () => {
   );
 };
 
-export default profolio;
+export default ProfolioComponents;

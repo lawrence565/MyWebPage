@@ -2,7 +2,7 @@ import React from "react";
 import "./style/style.css";
 import HomeComponents from "./components/Home-components";
 import InfoComponents from "./components/Info-page-components.js";
-import ProfolioComponents from "./components/profolio-components";
+import ProfolioComponents from "./components/Profolio-components.js";
 import Layout from "./components/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const InfoComponents = () => {
-  const rootPath = "";
-
   return (
     <div>
       <div>
@@ -37,7 +35,7 @@ const InfoComponents = () => {
                 </p>
               </article>
               <br />
-              <Link className="btn btn-primary" to={`${rootPath}`}>
+              <Link className="btn btn-primary" to="/">
                 回到首頁
               </Link>
             </section>

@@ -53,18 +53,18 @@ const footer = () => {
           <h3>提出問題</h3>
           <div className="basic-info">
             <div className="name">
-              <input name="name" placeholder="姓名："></input>
+              <input type="text" name="name" placeholder="姓名："></input>
             </div>
             <div style={{ width: "20px" }}></div>
             <div className="phone">
-              <input name="phone" placeholder="電話："></input>
+              <input type="phone" name="phone" placeholder="電話："></input>
             </div>
           </div>
           <div className="email">
-            <input name="email" placeholder="郵件："></input>
+            <input type="email" name="email" placeholder="郵件："></input>
           </div>
           <div className="message">
-            <input name="message" placeholder="訊息："></input>
+            <input type="text" name="message" placeholder="訊息："></input>
           </div>
         </div>
       </div>
