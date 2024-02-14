@@ -126,4 +126,8 @@ section.events-section div.event-cards .card .card-title,
 section.events-section div.event-cards .card .card-text {
   border-radius: 10px;
   background-color: white;
+}
+
+.back-to-home {
+  margin: 3rem;
 }/*# sourceMappingURL=style.css.map */

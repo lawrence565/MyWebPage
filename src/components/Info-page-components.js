@@ -8,7 +8,7 @@ const InfoComponents = () => {
         <div className="container" style={{ minHeight: "60vh" }}>
           <div className="container-fluid">
             <section className="main-content">
-              <article>
+              <article className="info-article">
                 <h1>這裡是關於 Lawrence 的網站</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -35,9 +35,11 @@ const InfoComponents = () => {
                 </p>
               </article>
               <br />
-              <Link className="btn btn-primary" to="/">
-                回到首頁
-              </Link>
+              <div className="back-to-home">
+                <Link className="btn btn-primary" to="/">
+                  回到首頁
+                </Link>
+              </div>
             </section>
           </div>
         </div>
