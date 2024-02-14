@@ -38,11 +38,14 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This project was create by Lawrence Wu",
   "main": "index.js",
   "keywords": [
     "website"
   ],
   "author": "Lawrence",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }

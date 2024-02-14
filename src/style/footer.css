@@ -42,7 +42,7 @@
   height: 50px;
   background-color: black;
 }
-.footer-div .left-footer .icons .contact-logo:hover {
+.footer-div .left-footer .icons .contact-logo img:hover {
   cursor: pointer;
 }
 .footer-div .left-footer .contact-me {

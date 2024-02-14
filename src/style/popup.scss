@@ -1,0 +1,54 @@
+.popup-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+
+  .popup-bg {
+    margin: 3rem;
+    top: 5%;
+    left: 5%;
+    width: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .banner-container {
+    width: 100%;
+    position: relative;
+    top: 0;
+    overflow: scroll;
+    img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 2/1;
+    }
+    .close {
+      font-size: 30px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0);
+      z-index: 2;
+      float: right;
+      right: 1rem;
+      &:hover {
+        color: lightcyan;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .event-detail {
+    padding: 1rem;
+    background-color: white;
+    overflow: scroll;
+    .event-content {
+      background-color: white;
+    }
+  }
+}

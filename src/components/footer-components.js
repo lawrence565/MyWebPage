@@ -8,36 +8,46 @@ const footer = () => {
         <div className="left-footer">
           <div className="icons">
             <div className="contact-logo">
-              <img
-                id="facebook"
-                src="/images/logos/fb_logo.png"
-                alt="Facebook-Logo"
+              <a
                 href="https://www.facebook.com/lawrence.wu.3910/"
-              />
+                target="_blank"
+              >
+                <img
+                  id="facebook"
+                  src="/images/logos/fb_logo.png"
+                  alt="Facebook-Logo"
+                />
+              </a>
             </div>
             <div className="contact-logo">
-              <img
-                id="Gmail"
-                src="/images/logos/Gmail-logo.png"
-                alt="Gmail-Logo"
-                href="mailto:lawrence891106@gmail.com"
-              />
+              <a href="mailto:lawrence891106@gmail.com" target="_blank">
+                <img
+                  id="Gmail"
+                  src="/images/logos/Gmail-logo.png"
+                  alt="Gmail-Logo"
+                />
+              </a>
             </div>
             <div className="contact-logo">
-              <img
-                id="GitHub"
-                src="/images/logos/GitHub_logo.png"
-                alt="GitHub-Logo"
-                href="https://github.com/lawrence565"
-              />
+              <a href="https://github.com/lawrence565" target="_blank">
+                <img
+                  id="GitHub"
+                  src="/images/logos/GitHub_logo.png"
+                  alt="GitHub-Logo"
+                />
+              </a>
             </div>
             <div className="contact-logo">
-              <img
-                id="twitter"
-                src="/images/logos/linkedin-logo.svg"
-                alt="Twitter-Logo"
+              <a
                 href="https://www.linkedin.com/in/秉耀-吳-a73822225/"
-              />
+                target="_blank"
+              >
+                <img
+                  id="twitter"
+                  src="/images/logos/linkedin-logo.svg"
+                  alt="Twitter-Logo"
+                />
+              </a>
             </div>
           </div>
           <div className="contact-me">
