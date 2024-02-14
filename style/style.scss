@@ -1,0 +1,129 @@
+// reset
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  min-height: "70vh";
+}
+
+@media screen and (min-width: 992px) {
+  div.content-box {
+    display: flex;
+    min-height: 40vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: nowrap;
+    h1 {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  div.content-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+      margin-right: 10px;
+    }
+  }
+}
+
+.content {
+  padding: 20px;
+}
+.main-content {
+  flex-grow: 3;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  .thumbnail-bg {
+    display: flex;
+    justify-content: center;
+    border: 8px solid black;
+    border-radius: 10px;
+    max-width: 20vw;
+    overflow: hidden;
+    background-color: black;
+
+    img {
+      aspect-ratio: 3/4;
+      border-radius: 10px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+section {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+div.content-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 70vw;
+  .main-content {
+    display: flex;
+    flex: 3;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .thumbnail {
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+section.events-section {
+  height: fit-content;
+  margin-bottom: 10vh;
+  div.event-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    border-radius: 10px;
+    .event-card {
+      padding-right: 20px;
+      height: auto;
+    }
+    .card {
+      border-radius: 30px;
+      .card-body,
+      .card-title,
+      .card-text {
+        border-radius: 10px;
+        background-color: white;
+      }
+    }
+  }
+}

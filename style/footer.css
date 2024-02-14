@@ -1,0 +1,90 @@
+.footer {
+  background-color: black;
+  overflow-x: hidden;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-div {
+  margin: 5% 0;
+  display: flex;
+  height: 18vh;
+  align-items: flex-start;
+  background-color: black;
+}
+.footer-div .left-footer {
+  margin: 1% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.footer-div .left-footer .icons {
+  flex-grow: 3;
+  display: flex;
+  width: 30vw;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background-color: black;
+  padding-top: 3%;
+}
+.footer-div .left-footer .icons .contact-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  margin: 0 0.5rem;
+  justify-content: center;
+  background-color: black;
+}
+.footer-div .left-footer .icons .contact-logo img {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+.footer-div .left-footer .icons .contact-logo img:hover {
+  cursor: pointer;
+}
+.footer-div .left-footer .contact-me {
+  margin-top: 5vh;
+  background-color: black;
+}
+.footer-div .left-footer .contact-me h3 {
+  background-color: black;
+  color: white;
+}
+.footer-div .right-footer {
+  flex-grow: 4;
+  margin: 0.5rem 1rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+.footer-div .right-footer .basic-info {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.footer-div .right-footer h3 {
+  flex-grow: 1;
+  color: white;
+  background-color: black;
+  justify-content: center;
+}
+.footer-div .right-footer div {
+  flex-grow: 1;
+  background-color: black;
+  width: 100%;
+}
+.footer-div .right-footer div input {
+  border-bottom: 1px solid white;
+  background-color: black;
+  border-radius: 5px;
+  min-width: 100px;
+  width: 100%;
+}
+.footer-div .right-footer div input:focus {
+  background-color: lightgray;
+}/*# sourceMappingURL=footer.css.map */

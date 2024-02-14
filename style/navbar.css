@@ -1,0 +1,25 @@
+.nav-bar {
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-item a {
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item a #hamburgerIcon {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item a #hamburgerIcon ::after:hover {
+    color: bisque;
+  }
+}/*# sourceMappingURL=navbar.css.map */
