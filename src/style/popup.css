@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 .popup-container .event-detail {
-  padding: 1rem;
+  padding: 3rem;
   background-color: white;
   overflow: scroll;
 }

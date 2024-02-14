@@ -29,16 +29,16 @@ const PopupComponent = (props) => {
               這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉
             </p>
             <br />
-            <h3 className="event-content">活動特點</h3>
+            <h3 className="event-content">這是活動特點</h3>
             <p className="event-content">不知道要說啥但這活動超酷的</p>
             <br />
-            <h3 className="event-content">這是活動的名稱</h3>
+            <h3 className="event-content">這是其他活動細節</h3>
             <p className="event-content">
               這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉
               這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉
             </p>
             <br />
-            <h3 className="event-content">這是活動的名稱</h3>
+            <h3 className="event-content">這是活動的後續影響</h3>
             <p className="event-content">
               這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉這邊是活動的內容巴拉巴拉
             </p>
