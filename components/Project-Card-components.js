@@ -13,13 +13,10 @@ const ProfolioComponents = (props) => {
       <div className="project-info">
         <h3 className="project-name">{props.name}</h3>
         <p className="project-desc">這是關於 Project 的許多細節與介紹</p>
-<<<<<<< HEAD:src/components/Project-Card-components.js
-=======
         <br />
         <a className="btn btn-primary" onClick={props.setOpenCondic}>
           查看更多
         </a>
->>>>>>> ed45aa54f22fb44fb8e34193996e02d40b59023c:components/Project-Card-components.js
       </div>
     </div>
   );

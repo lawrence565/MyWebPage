@@ -1,12 +1,7 @@
 .footer {
   background-color: black;
   overflow-x: hidden;
-<<<<<<< HEAD:src/style/footer.scss
-}
-.footer-div {
-=======
   width: 100vw;
->>>>>>> ed45aa54f22fb44fb8e34193996e02d40b59023c:style/footer.scss
   display: flex;
   justify-content: center;
 }
@@ -36,15 +31,10 @@
 
       .contact-logo {
         display: flex;
-<<<<<<< HEAD:src/style/footer.scss
-        margin: 0.3em 0 0.3em 0;
-        align-items: center;
-=======
         flex-wrap: nowrap;
         flex-grow: 1;
         margin: 0 0.5rem;
         justify-content: center;
->>>>>>> ed45aa54f22fb44fb8e34193996e02d40b59023c:style/footer.scss
         background-color: black;
         img {
           width: 50px;
@@ -95,11 +85,6 @@
         border-bottom: 1px solid white;
         background-color: black;
         border-radius: 5px;
-<<<<<<< HEAD:src/style/footer.scss
-        margin-bottom: 0.3rem;
-        width: fit-content;
-=======
->>>>>>> ed45aa54f22fb44fb8e34193996e02d40b59023c:style/footer.scss
         min-width: 100px;
         width: 100%;
         &:focus {

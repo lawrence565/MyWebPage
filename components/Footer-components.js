@@ -11,6 +11,7 @@ const footer = () => {
               <a
                 href="https://www.facebook.com/lawrence.wu.3910/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   id="facebook"
@@ -20,7 +21,11 @@ const footer = () => {
               </a>
             </div>
             <div className="contact-logo">
-              <a href="mailto:lawrence891106@gmail.com" target="_blank">
+              <a
+                href="mailto:lawrence891106@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   id="Gmail"
                   src="/images/logos/Gmail-logo.png"
@@ -29,7 +34,11 @@ const footer = () => {
               </a>
             </div>
             <div className="contact-logo">
-              <a href="https://github.com/lawrence565" target="_blank">
+              <a
+                href="https://github.com/lawrence565"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   id="GitHub"
                   src="/images/logos/GitHub_logo.png"
@@ -41,6 +50,7 @@ const footer = () => {
               <a
                 href="https://www.linkedin.com/in/秉耀-吳-a73822225/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   id="twitter"
