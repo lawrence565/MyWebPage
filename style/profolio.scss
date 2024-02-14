@@ -1,0 +1,50 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: white;
+  .project-img-container {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      background-color: white;
+    }
+  }
+
+  .project-info {
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 0 1rem 0 1.5rem;
+    background-color: white;
+    h3,
+    p {
+      background-color: white;
+    }
+  }
+}

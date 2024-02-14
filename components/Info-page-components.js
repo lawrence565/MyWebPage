@@ -2,12 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const InfoComponents = () => {
-  const rootPath = "/MyWebPage";
-
   return (
     <div>
       <div>
-        <div className="container">
+        <div className="container" style={{ minHeight: "60vh" }}>
           <div className="container-fluid">
             <section className="main-content">
               <article>
@@ -37,7 +35,7 @@ const InfoComponents = () => {
                 </p>
               </article>
               <br />
-              <Link className="btn btn-primary" to={`${rootPath}`}>
+              <Link className="btn btn-primary" to="/">
                 回到首頁
               </Link>
             </section>

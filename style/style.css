@@ -10,33 +10,78 @@ li {
   list-style: none;
 }
 
-div.content-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.container {
+  min-height: "70vh";
 }
-div.content-box .content {
+
+@media screen and (min-width: 992px) {
+  div.content-box {
+    display: flex;
+    min-height: 40vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .title h1 {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  div.content-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title h1 {
+    margin-right: 10px;
+  }
+}
+.content {
   padding: 20px;
 }
-div.content-box .thumbnail {
-  padding: 10px;
+
+.main-content {
+  flex-grow: 3;
 }
-div.content-box .thumbnail img {
-  width: auto;
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.thumbnail-container .thumbnail-bg {
+  display: flex;
+  justify-content: center;
+  border: 8px solid black;
+  border-radius: 10px;
+  max-width: 20vw;
+  overflow: hidden;
+  background-color: black;
+}
+.thumbnail-container .thumbnail-bg img {
+  aspect-ratio: 3/4;
+  border-radius: 10px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 section {
   margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10vh;
-}
-
-.main-content {
-  display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 }
 
 div.content-box {
@@ -58,28 +103,27 @@ div.content-box .thumbnail {
   justify-content: center;
 }
 
-section.projects-section {
+section.events-section {
   height: -moz-fit-content;
   height: fit-content;
   margin-bottom: 10vh;
 }
-section.projects-section div.project-cards {
+section.events-section div.event-cards {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
   border-radius: 10px;
 }
-section.projects-section div.project-cards .project-card {
+section.events-section div.event-cards .event-card {
   padding-right: 20px;
   height: auto;
 }
-section.projects-section div.project-cards .card {
-  border: 10px, solid, aqua;
-  border-radius: 20px;
+section.events-section div.event-cards .card {
+  border-radius: 30px;
 }
-section.projects-section div.project-cards .card .card-body,
-section.projects-section div.project-cards .card .card-title,
-section.projects-section div.project-cards .card .card-text {
+section.events-section div.event-cards .card .card-body,
+section.events-section div.event-cards .card .card-title,
+section.events-section div.event-cards .card .card-text {
   border-radius: 10px;
   background-color: white;
 }/*# sourceMappingURL=style.css.map */
